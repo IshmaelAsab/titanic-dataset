@@ -16,7 +16,5 @@
 
 ## Outputs
 
-After a successful run, you should see:
-
 - `outputs/metrics.json`
 - `outputs/roc_curve.png`
