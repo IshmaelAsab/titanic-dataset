@@ -1,0 +1,66 @@
+{
+  "dataset_path": "C:\\Users\\hp\\Downloads\\07_dev_codex\\python_env\\Titanic.csv",
+  "dataset_shape": {
+    "rows": 891,
+    "columns": 12
+  },
+  "target_column": "Survived",
+  "features_used": [
+    "Pclass",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Embarked"
+  ],
+  "dropped_columns": [
+    "PassengerId",
+    "Name",
+    "Ticket",
+    "Cabin"
+  ],
+  "numeric_features": [
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare"
+  ],
+  "categorical_features": [
+    "Pclass",
+    "Sex",
+    "Embarked"
+  ],
+  "train_rows": 712,
+  "test_rows": 179,
+  "accuracy": 0.8044692737430168,
+  "roc_auc": 0.8426877470355731,
+  "column_dtypes": {
+    "PassengerId": "int64",
+    "Survived": "int64",
+    "Pclass": "int64",
+    "Name": "str",
+    "Sex": "str",
+    "Age": "float64",
+    "SibSp": "int64",
+    "Parch": "int64",
+    "Ticket": "str",
+    "Fare": "float64",
+    "Cabin": "str",
+    "Embarked": "str"
+  },
+  "missing_values": {
+    "PassengerId": 0,
+    "Survived": 0,
+    "Pclass": 0,
+    "Name": 0,
+    "Sex": 0,
+    "Age": 177,
+    "SibSp": 0,
+    "Parch": 0,
+    "Ticket": 0,
+    "Fare": 0,
+    "Cabin": 687,
+    "Embarked": 2
+  }
+}
